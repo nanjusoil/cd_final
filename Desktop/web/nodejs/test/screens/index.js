@@ -4,6 +4,7 @@ import FirstTabScreen from './FirstTabScreen';
 import SecondTabScreen from './SecondTabScreen';
 import PushedScreen from './PushedScreen';
 import ModalScreen from './ModalScreen';
+import DetailScreen from './DetailScreen';
 
 // register all screens of the app (including internal ones)
 export function registerScreens() {
@@ -11,5 +12,6 @@ export function registerScreens() {
   Navigation.registerComponent('example.SecondTabScreen', () => SecondTabScreen);
   Navigation.registerComponent('example.PushedScreen', () => PushedScreen);
   Navigation.registerComponent('example.ModalScreen', () => ModalScreen);
+  Navigation.registerComponent('example.DetailScreen', () => DetailScreen);
 
 }
